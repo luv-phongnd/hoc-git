@@ -1,0 +1,173 @@
+
+#header{
+    width: 900px;
+    margin-left: 50px;
+}
+table{
+    width: 800px;
+}
+#main{
+    width: 950px;
+    margin: 50px; 
+}
+
+#footer{
+    width: 800px;
+}
+
+html, body {
+    height: 100%;
+    width: 1000px;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.inputSearch, select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.inputDefault{
+	width: 30%;
+	display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold
+}
+
+
+.product-preview-container {
+    border: 0px solid #ccc;
+    width: 290px;
+    height :150px;
+    display: inline-block;
+    text-align:left;
+}
+.div-tinh-thanh{
+	width: 300px;
+	height :190px;
+	display: inline-block;
+}
+.div-mo-ta{
+    width: 500px;
+	height :190px;
+	
+	display: inline-block;
+}
+ul {
+    list-style-type: none;
+    margin:5px;
+    padding-left:0px;
+    border: 1px solid;
+    width: 320px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.lbl_paging {
+	color: #000000;
+	text-align: center;
+	font-size: 20px;
+	border: 0px;
+}
+
+.tbl_input {
+	border: none;
+}
+
+.lbl_left {
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	font-size: 13px;
+	width: 120px;
+}
+.btn {
+	font-size: 11px;
+	font-weight: normal;
+	background-image: url(../IMAGES/btn_bg.gif);
+	background-repeat:no-repeat;
+	width: 100px;
+	height: 18px;
+	border: 0px;
+	cursor: pointer;
+	padding-top: 2px;
+}
+.btn .btn_wider {
+	background-image: url(../IMAGES/btn_wider_bg.gif);
+	width: 100px;
+}
+
+
+.dropbtn {
+	color:blue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.colorBlue{
+	color: blue;
+}
+
+a:hover{
+	color: red;
+}
+
+.formDangKy .td1{
+    width: 150px;
+    text-align: right;
+}
+.formDangKy .td2{
+    width: 300px;
+}
+
+.errMsg {
+	font-weight: bold;
+	color: #FF0000;
+	text-align: left;
+}
